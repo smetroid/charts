@@ -20,7 +20,7 @@ Memo (A privacy-first, lightweight note-taking service)
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://rubxkube.github.io/common-charts | common | v0.2.2 |
+| https://rubxkube.github.io/common-charts | common | v0.4.3 |
 
 ## Values
 
