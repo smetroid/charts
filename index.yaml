@@ -1,0 +1,683 @@
+apiVersion: v1
+entries:
+  baikal:
+  - apiVersion: v2
+    appVersion: 0.10.1-nginx
+    created: "2025-01-22T04:49:43.11464448Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: Baikal is a Cal and CardDAV server, based on sabre/dav, that includes
+      an administrative interface for easy management.
+    digest: 60c94cc80302b58e55c2de278e07f48a9b5ffd18ed442a72e70e8615a61e9f4c
+    home: https://sabre.io/baikal/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/baikal-logo.png
+    keywords:
+    - baikal
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: baikal
+    sources:
+    - https://github.com/sabre-io/Baikal
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/baikal-1.2.7/baikal-1.2.7.tgz
+    version: 1.2.7
+  cloudflare-tunnel:
+  - apiVersion: v2
+    appVersion: 2024.8.3
+    created: "2025-01-22T04:49:43.277667777Z"
+    description: Creation of a cloudflared deployment - a reverse tunnel for an environment
+    digest: 257c7976948cf0b25c9b2e2fadb08129f85bad1bc9515ff3c1a690c72541ceef
+    icon: https://developers.cloudflare.com/cloudflare-one/favicon-32x32.png
+    name: cloudflare-tunnel
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/cloudflare-tunnel-0.3.2/cloudflare-tunnel-0.3.2.tgz
+    version: 0.3.2
+  deluge:
+  - apiVersion: v2
+    appVersion: 18.04.1
+    created: "2025-01-22T04:49:43.441418793Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: Deluge is a lightweight, Free Software, cross-platform BitTorrent
+      client.
+    digest: d29929e4ead7d4d6a2eeaa7f439d3a47f426e3783c3e1a64cc227a581eb343b1
+    home: https://deluge-torrent.org/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/deluge-logo.png
+    keywords:
+    - Deluge
+    - Torrent
+    - Download
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: deluge
+    sources:
+    - https://git.deluge-torrent.org/deluge/tree/?h=develop
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/deluge-1.1.2/deluge-1.1.2.tgz
+    version: 1.1.2
+  flaresolverr:
+  - apiVersion: v2
+    appVersion: v3.3.21
+    created: "2025-01-22T04:49:43.607818666Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.12
+    description: FlareSolverr is a proxy server that solves Cloudflare's Javascript
+      challenges.
+    digest: bd6483f0dfd09f4ba029038fecf4d0373f7b7d82bbfaab3101bdd053a41114f9
+    home: https://github.com/FlareSolverr/FlareSolverr
+    keywords:
+    - FlareSolverr
+    - Cloudflare
+    - Proxy
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: flaresolverr
+    sources:
+    - https://github.com/FlareSolverr/FlareSolverr
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/flaresolverr-0.0.1/flaresolverr-0.0.1.tgz
+    version: 0.0.1
+  freshrss:
+  - apiVersion: v2
+    appVersion: 1.25.0
+    created: "2025-01-22T04:49:43.782510094Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: A WebUI to read article via RSS
+    digest: 7b836abcaa288e6ded27d0259ea8a771cfabbcd9d7726333351ddbd91890c494
+    home: https://www.freshrss.org/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/freshrss-logo.png
+    keywords:
+    - freshrss
+    - rss
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: freshrss
+    sources:
+    - https://github.com/FreshRSS/FreshRSS
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/freshrss-1.2.11/freshrss-1.2.11.tgz
+    version: 1.2.11
+  gitea:
+  - apiVersion: v2
+    appVersion: 1.23.1
+    created: "2025-01-22T04:49:43.960206393Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: Gitea (Git with a cup of tea)
+    digest: d1106798fb09f1c49fd5a62fd0d3e0085ffb23e51b6afb094a195b391171bbe2
+    home: https://gitea.com
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/gitea-logo.png
+    keywords:
+    - gitea
+    - git
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: gitea
+    sources:
+    - https://github.com/go-gitea/gitea
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/gitea-1.1.18/gitea-1.1.18.tgz
+    version: 1.1.18
+  glance:
+  - apiVersion: v2
+    appVersion: v0.6.4
+    created: "2025-01-22T04:49:44.140456015Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.4.0
+    description: A self-hosted dashboard that puts all your feeds in one place
+    digest: 2ad7ffaac47321d09123ffaff487ab2a1be7f492c22782311693f960292347c9
+    home: https://github.com/glanceapp/glance
+    keywords:
+    - dashboard
+    - feeds
+    - rss
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+      url: https://une-tasse-de.cafe
+    name: glance
+    sources:
+    - https://github.com/glanceapp/glance
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/glance-0.0.3/glance-0.0.3.tgz
+    version: 0.0.3
+  gotify:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2025-01-22T04:49:44.303949106Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: a simple server for sending and receiving messages
+    digest: 091368ec44f18e5592af682b770192e8711782033f19aff458d0b07a017fb10c
+    home: https://gotify.net/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/gotify-logo.png
+    keywords:
+    - gotify
+    - notification
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: gotify
+    sources:
+    - https://github.com/gotify/server
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/gotify-1.2.8/gotify-1.2.8.tgz
+    version: 1.2.8
+  jackett:
+  - apiVersion: v2
+    appVersion: 0.22.1085
+    created: "2025-01-22T04:49:44.566191765Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.12
+    description: 'Jackett works as a proxy server: it translates queries from apps
+      into tracker-site-specific http queries.'
+    digest: 39ddb2a28aaa30c181f9ada213d66c4c72ded398a2fa28d53b614b67add6138e
+    home: https://github.com/Jackett/Jackett
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/jackett-logo.png
+    keywords:
+    - Jackett
+    - Plex
+    - Series
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: jackett
+    sources:
+    - https://github.com/Jackett/Jackett
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/jackett-1.3.0/jackett-1.3.0.tgz
+    version: 1.3.0
+  jellyfin:
+  - apiVersion: v2
+    appVersion: 10.10.3
+    created: "2025-01-22T04:49:44.756783789Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.4.1
+    description: Jellyfin is a Free Software Media System that puts you in control
+      of managing and streaming your media
+    digest: fca4564b6876a58faefb04b86a077cb5dedb20f3130290597d0a2c2cf89abe0a
+    home: https://jellyfin.org/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/jellyfin-logo.png
+    keywords:
+    - media server
+    - Plex
+    - Jellyfin
+    - Media
+    - Streaming
+    - Server
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: jellyfin
+    sources:
+    - https://github.com/jellyfin/jellyfin
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/jellyfin-1.2.0/jellyfin-1.2.0.tgz
+    version: 1.2.0
+  joplin:
+  - apiVersion: v2
+    appVersion: 3.0-beta
+    created: "2025-01-22T04:49:44.942740256Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.2.5
+    description: Joplin is an open source note-taking app. Capture your thoughts and
+      securely access them from any device.
+    digest: 9257ec0f09482001feefd79ed5194f86196d6a84921227dc5bbfed52886809d8
+    home: https://joplinapp.org/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/joplin-logo.png
+    keywords:
+    - joplin
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+      url: https://une-tasse-de.cafe
+    name: joplin
+    sources:
+    - https://github.com/laurent22/joplin
+    - https://github.com/QJoly/helm-charts
+    urls:
+    - https://github.com/smetroid/charts/releases/download/joplin-1.1.18/joplin-1.1.18.tgz
+    version: 1.1.18
+  komga:
+  - apiVersion: v2
+    appVersion: 1.18.0
+    created: "2025-01-22T04:49:45.102278089Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.12
+    description: A WebUI to read comics/mangas from your library
+    digest: d0f8efd8e7d0664281078ddfb80d014455ab305d3c65160d39e05ce0054efe05
+    home: https://komga.org
+    icon: https://komga.org/img/logo.svg
+    keywords:
+    - comics
+    - manga
+    - reader
+    - library
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: komga
+    sources:
+    - https://github.com/gotson/komga
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/komga-0.0.4/komga-0.0.4.tgz
+    version: 0.0.4
+  kyoo:
+  - apiVersion: v2
+    appVersion: 4.7.0
+    created: "2025-01-22T04:49:45.289558703Z"
+    dependencies:
+    - alias: front
+      condition: front.enabled
+      name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.11
+    - alias: back
+      condition: back.enabled
+      name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.11
+    - alias: transcoder
+      condition: transcoder.enabled
+      name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.11
+    - alias: scanner
+      condition: scanner.enabled
+      name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.11
+    - alias: autosync
+      condition: autosync.enabled
+      name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.11
+    - alias: matcher
+      condition: matcher.enabled
+      name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.11
+    - condition: meilisearch.enabled
+      name: meilisearch
+      repository: https://meilisearch.github.io/meilisearch-kubernetes
+      version: 0.10.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.2.5
+    - condition: rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.1.0
+    description: Kyoo is a media manager and transcoder for your media files.
+    digest: 643d36066f9b3fa8800518373c931f6db866ace4b07bff1e263b2354ef31399e
+    home: https://github.com/zoriya/Kyoo
+    icon: https://github.com/zoriya/Kyoo/blob/master/icons/icon-256x256.png?raw=true
+    keywords:
+    - transcoder
+    - media manager
+    - micro-services
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-pause-cafe.fr
+      name: QJOLY
+    name: kyoo
+    sources:
+    - https://github.com/zoriya/Kyoo
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/kyoo-0.1.5/kyoo-0.1.5.tgz
+    version: 0.1.5
+  linkding:
+  - apiVersion: v2
+    appVersion: 1.36.0
+    created: "2025-01-22T04:49:45.473428644Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: linkding is a bookmark manager that you can host yourself. It's designed
+      be to be minimal, fast, and easy to set up.
+    digest: 4044c7621a62f74cd8919c203d70e4e3921ead785b8135699f231f1f66328b8d
+    home: https://github.com/sissbruecker/linkding
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/linkding-logo.png
+    keywords:
+    - linkding
+    - bookmark manager
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: linkding
+    sources:
+    - https://github.com/sissbruecker/linkding
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/linkding-1.1.16/linkding-1.1.16.tgz
+    version: 1.1.16
+  memo:
+  - apiVersion: v2
+    appVersion: "0.22"
+    created: "2025-01-22T04:49:45.63913465Z"
+    dependencies:
+    - name: common
+      repository: https://smetroid.github.io/common-charts
+      version: v0.4.4
+    description: Memo (A privacy-first, lightweight note-taking service)
+    digest: a0cc40385e9557d494566792a312fe129dfab8c6649fefba60a5f03f8ad73941
+    home: https://usememos.com/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/memo-logo.png
+    keywords:
+    - memo
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+      url: https://une-tasse-de.cafe
+    name: memo
+    sources:
+    - https://github.com/usememos/memos
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/memo-1.1.9/memo-1.1.9.tgz
+    version: 1.1.9
+  mylar3:
+  - apiVersion: v2
+    appVersion: 2021.12.13
+    created: "2025-01-22T04:49:45.798323332Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.12
+    description: Mylar3 is an automated Comic Book (cbr/cbz) downloader program
+    digest: a54c7dacf26747ea5119145d34ad6aa0b82c1c41ae87b13ec04c6ba4cf98c25c
+    home: https://mylarcomics.com/
+    icon: https://mylarcomics.com/img/mylarlogo.png
+    keywords:
+    - mylar3
+    - mylar
+    - comic
+    - cbr
+    - cbz
+    - downloader
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: mylar3
+    sources:
+    - https://github.com/mylar3/mylar3
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/mylar3-0.0.2/mylar3-0.0.2.tgz
+    version: 0.0.2
+  radarr:
+  - apiVersion: v2
+    appVersion: 5.17.2
+    created: "2025-01-22T04:49:45.969894023Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: Radarr is a movie collection manager for Usenet and BitTorrent users.
+      It can monitor multiple RSS feeds for new movies and will interface with clients
+      and indexers to grab, sort, and rename them. It can also be configured to automatically
+      upgrade the quality of files already downloaded when a better quality format
+      becomes available.
+    digest: 006874b894ecd34008f532dacbe6d76a5350d39c336aec878dbe361de3f6815d
+    home: https://radarr.video/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/radarr-logo.png
+    keywords:
+    - Radarr
+    - Movies
+    - Plex
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: radarr
+    sources:
+    - https://github.com/Radarr/Radarr
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/radarr-1.1.10/radarr-1.1.10.tgz
+    version: 1.1.10
+  simple-coffee:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-22T04:49:46.129265227Z"
+    description: This is a test application
+    digest: aa77aeb1ba7a9b14190552502dd08277652ac9fc224023c99a3c41174a882388
+    name: simple-coffee
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/simple-coffee-0.1.0/simple-coffee-0.1.0.tgz
+    version: 0.1.0
+  smokeping:
+  - apiVersion: v2
+    appVersion: 2.8.2
+    created: "2025-01-22T04:49:46.288537209Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: SmokePing is a latency logging and graphing and alerting system
+    digest: 01107a1f2a633d5e05670986fa307944c55554139355b997f70aedd61a1d76f5
+    home: https://oss.oetiker.ch/smokeping/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/smokeping-logo.png
+    keywords:
+    - smokeping
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+      url: https://une-tasse-de.cafe
+    name: smokeping
+    sources:
+    - https://github.com/oetiker/SmokePing
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/smokeping-1.1.2/smokeping-1.1.2.tgz
+    version: 1.1.2
+  sonarr:
+  - apiVersion: v2
+    appVersion: 4.0.12
+    created: "2025-01-22T04:49:46.460036375Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: Sonarr is a PVR for Usenet and BitTorrent users.
+    digest: 01bbee46cd0cb30da6c0b1cc98da93bfee59224fd379b0dd8c74a2b1e1469c6c
+    home: https://github.com/Sonarr/Sonarr
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/sonarr-logo.png
+    keywords:
+    - Sonarr
+    - Plex
+    - Series
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: sonarr
+    sources:
+    - https://github.com/Sonarr/Sonarr
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/sonarr-1.2.9/sonarr-1.2.9.tgz
+    version: 1.2.9
+  stirling-pdf:
+  - apiVersion: v2
+    appVersion: 0.37.1
+    created: "2025-01-22T04:49:46.624897433Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.12
+    description: Stirling-PDF is a robust, locally hosted web-based PDF manipulation
+      tool using Docker. It enables you to carry out various operations on PDF files,
+      including splitting, merging, converting, reorganizing, adding images, rotating,
+      compressing, and more
+    digest: 063ec197e2e338013623718e35c08268d737d86accea296a2341859d54f8c5f6
+    home: https://www.stirlingpdf.com/
+    keywords:
+    - pdf
+    - manipulation
+    - tools
+    - editor
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+      url: https://une-tasse-de.cafe
+    name: stirling-pdf
+    sources:
+    - https://github.com/Stirling-Tools/Stirling-PDF
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/stirling-pdf-0.0.5/stirling-pdf-0.0.5.tgz
+    version: 0.0.5
+  uptime-kuma:
+  - apiVersion: v2
+    appVersion: 1.23.15
+    created: "2025-01-22T04:49:46.83580211Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: Uptime Kuma is an easy-to-use self-hosted monitoring tool.
+    digest: 41d62838a2f0ff2f183dae3ba04961f684330164b7a8e8c624786bc9965972e1
+    home: https://github.com/louislam/uptime-kuma
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/uptime-kuma-logo.png
+    keywords:
+    - monitoring
+    - uptime
+    - kuma
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: uptime-kuma
+    sources:
+    - https://github.com/louislam/uptime-kuma
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/uptime-kuma-1.1.18/uptime-kuma-1.1.18.tgz
+    version: 1.1.18
+  vaultwarden:
+  - apiVersion: v2
+    appVersion: 1.32.7
+    created: "2025-01-22T04:49:47.011750122Z"
+    dependencies:
+    - name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.2.2
+    description: Vaultwarden is an easy-to-use self-hosted password manager.
+    digest: 73cc630086693fc570847ef8fda5daec6b5c556ff3782fa961ef9d26f9690245
+    home: https://github.com/dani-garcia/vaultwarden
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/vaultwarden-logo.png
+    keywords:
+    - password manager
+    - vaultwarden
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: vaultwarden
+    sources:
+    - https://github.com/dani-garcia/vaultwarden
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/vaultwarden-1.1.14/vaultwarden-1.1.14.tgz
+    version: 1.1.14
+  your-spotify:
+  - apiVersion: v2
+    appVersion: 1.12.0
+    created: "2025-01-22T04:49:47.269309261Z"
+    dependencies:
+    - alias: server
+      name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.12
+    - alias: web
+      name: common
+      repository: https://rubxkube.github.io/common-charts
+      version: v0.3.12
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.4.0
+    description: YourSpotify is a self-hosted application that tracks what you listen
+      and offers you a dashboard to explore statistics about it! It's composed of
+      a web server which polls the Spotify API every now and then and a web application
+      on which you can explore your statistics.
+    digest: e1874fc8fca867d81ace0f8e98d3d080f33ba5db8a1f3638945918101419fdb3
+    home: https://github.com/Yooooomi/your_spotify
+    keywords:
+    - comics
+    - manga
+    - reader
+    - library
+    kubeVersion: '>= 1.18'
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+    name: your-spotify
+    sources:
+    - https://github.com/Yooooomi/your_spotify
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/your-spotify-0.0.1/your-spotify-0.0.1.tgz
+    version: 0.0.1
+generated: "2025-01-22T04:49:47.26931914Z"
