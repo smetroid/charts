@@ -17,5 +17,5 @@ sources:
  - https://github.com/usememos/memos
 dependencies:
  - name: common
-   repository: https://rubxkube.github.io/common-charts
-   version: v0.2.2
+   repository: https://smetroid.github.io/common-charts
+   version: v0.4.3
