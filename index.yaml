@@ -410,6 +410,30 @@ entries:
     version: 1.1.16
   memo:
   - apiVersion: v2
+    appVersion: "0.23"
+    created: "2025-01-23T00:30:51.517133563Z"
+    dependencies:
+    - name: common
+      repository: https://smetroid.github.io/common-charts
+      version: v0.4.4
+    description: Memo (A privacy-first, lightweight note-taking service)
+    digest: 9015cb16f2816ee8161bc2368f6dbc9ba0c70bf4bf43ec68bfafbaaee39f510f
+    home: https://usememos.com/
+    icon: https://raw.githubusercontent.com/RubxKube/charts/main/img/memo-logo.png
+    keywords:
+    - memo
+    maintainers:
+    - email: github@une-tasse-de.cafe
+      name: QJOLY
+      url: https://une-tasse-de.cafe
+    name: memo
+    sources:
+    - https://github.com/usememos/memos
+    type: application
+    urls:
+    - https://github.com/smetroid/charts/releases/download/memo-1.1.10/memo-1.1.10.tgz
+    version: 1.1.10
+  - apiVersion: v2
     appVersion: "0.22"
     created: "2025-01-22T04:49:45.63913465Z"
     dependencies:
@@ -680,4 +704,4 @@ entries:
     urls:
     - https://github.com/smetroid/charts/releases/download/your-spotify-0.0.1/your-spotify-0.0.1.tgz
     version: 0.0.1
-generated: "2025-01-22T04:49:47.26931914Z"
+generated: "2025-01-23T00:30:51.51714807Z"
