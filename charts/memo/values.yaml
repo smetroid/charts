@@ -8,6 +8,7 @@ common:
 
   # deployment
   deployment:
+    port: *containerPort
     memoryRequest: null
     cpuRequest: null
     memoryLimit: null
